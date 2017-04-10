@@ -22,7 +22,7 @@ unsigned int piezoSpeakerArmedMelody[]        = {NOTE_C5, NOTE_C5, NOTE_C5};
 unsigned int piezoSpeakerArmedNoteDurations[] = {4      ,4      , 4      }; 
 const int servo9gClosedPosition   = 20;  //Starting position - closed
 const int servo9gOpenPosition = 110; //Trap door open position
-const int triggerDistance = 5;
+const int triggerDistance = 10;
 
 // Constructors
 Servo servo9g;
